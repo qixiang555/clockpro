@@ -1,0 +1,18 @@
+<!--pages/feedback/feedback.wxml-->
+<view class="container">
+  <view class="card">
+    <view class="header">本项目由三组开发</view>
+    <view class="sub-header">开发人员如下</view>
+    <view class="stu">
+      <text class="student">刘钰琳</text>
+      <text class="student">仇建峰</text>
+      <text class="student">康慧萍</text>
+      <text class="student">李志贤</text>
+    </view>
+  </view>
+  <view class="card">
+    <view class="back">对于该项目有任何建议都可以通过邮箱联系我们</view>
+    <navigator url="mailto:488130794@qq.com" class="mail">488130794@qq.com</navigator>
+  </view>
+  <image src="/image/ilove.jpg" mode="widthFix" class="logo" />
+</view>

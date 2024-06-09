@@ -1,0 +1,10 @@
+<!-- pages/loginin/loginin.wxml -->
+<view class="wrap">
+  <view class="container">
+    <view class="tit">Login</view>
+    <input type="text" placeholder="账号" bindinput="onAccountInput" data-type="account"/>
+    <input type="password" placeholder="密码" bindinput="onPasswordInput" data-type="password"/>
+    <button bindtap="onLogin">登录</button>
+    <view class="sign" bindtap="onRegister">注册</view>
+  </view>
+</view>
